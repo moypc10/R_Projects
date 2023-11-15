@@ -1,0 +1,8 @@
+---
+title: "Untitled"
+author: "Moy"
+date: '2022-07-01'
+output: html_document
+---
+
+Vec1=c(10,11,13,-1,6,3)

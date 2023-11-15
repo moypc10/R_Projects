@@ -1,0 +1,76 @@
+---
+title: "Evidencia 1"
+output: html_notebook
+---
+
+Tec de Monterrey
+
+Campus Aguascalientes
+
+Moisés Hiram Pineda Campos
+
+**A01625510**
+
+21 de Julio del 2022
+
+**PARTE 1**
+
+1.  *Investiga, ¿Cuál es la situación actual de COVID-19 a nivel mundial, en México, en tu estado de origen y en tu municipio, alcaldía o colonia?*
+
+En México a día de hoy hay 6,265,311 casos confirmados de COVID-19, teniendo su pico más alto de contagios a finales de Enero del 2022. Ha habido 326,097 muertes a causa de este, teniendo su pico más alto a inicios de Febrero del 2021.
+
+En Aguascalientes ha habido 75,943 casos, sumando 476 ayer, y teniendo un total de  3,524 muertes
+
+2.  *¿Cuál fue la primera variante del virus que se propagó a todo el mundo?*
+
+Omicron causando más contagios propagandose con más facilidad y rapidez que la cepa original del Coronavirus, siendo su primera aparición en Sudáfrica
+
+3.  *¿Cuáles son las otras variantes del virus que existen en otras regiones del mundo?*
+
+Las variantes del virus tienen nombres del alfabeto griego, por ejemplo Alpha, Beta, Gamma, Delta, Epsilón, Dseta, Eta, Zeta, Iota, Kappa, Lambda, Mu, Omicrón, etc.
+
+4.  *¿Cómo buscarías información de la variante del virus en tu país?*
+
+Al ser una información que puede ser falsificada fácilmente pero es de mucha importancia, buscaría en internet en páginas confiables y oficiales del Gobierno o de la OMS.
+
+5.  *Imagina que te encuentras en una situación similar a la de Li Wenliang, médico chino que intentó alertar sobre el brote de coronavirus en su país, pero fue detenido por las autoridades y obligado a retractarse, ¿Qué harías en su caso? Selecciona un inciso:*
+*a) Lo reportas al centro de investigación o la universidad.* 
+*b) Lo reportas a la prensa.* 
+*c) Guardas la información.* 
+
+Trataría de reportarlo a la prensa, o en redes sociales donde se puede hacer viral muy rápido, aunque vería si la prensa es confiable y no corrupta donde si digan la verdad. Por último escaparía del país ya que lo más probable sería que me manden a matar por filtrar información importante, esperando que mi información filtrada sirva para prevenir a los demás países y que mi muerte no haya sido en vano
+
+Moisés Pineda
+2003-2021
+"Heroé"
+
+
+**PARTE 2**
+```{r}
+library(seqinr)
+
+#Obtén las secuencias de las variantes de SARS-CoV-2 desde el NCBI o el buscador de virus del NCBI.
+
+  #1. Alpha
+Alpha = read.fasta("Alpha.fasta")
+Alpha = secuencia[[1]]
+
+
+
+
+#Calcula la longitud de las secuencias de cada variante.
+AlpLength = length(Alpha)
+
+#Crea una gráfica donde compares las bases de ADN que componen a cada una de las variantes del virus.
+
+
+#¿Cuál es el %GC de cada variante?
+
+
+#Crea las secuencias contrasentido de cada variante.
+
+
+#Agrega una interpretación escrita de las gráficas que integras.
+
+
+```
